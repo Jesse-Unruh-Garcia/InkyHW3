@@ -88,7 +88,7 @@ You do not have coin, but maybe you could convince him to buy one.
     ++ { has_fly == true } Hand him the Fly of Frogatia
         "My god, The Fly of Frogatia? Now that's a real find! Here you go!"
         
-        Todd Two-Frogs hands you The Quantum Watch. It's ticking is otherworldly, and it clings to your arm as you put it on.
+        Todd Two-Frogs hands you The Quantum Watch. It's ticking is otherworldly, and it clings to your arm as you put it on. For some reason, a deep feeling tells you this watch will be able to withstand the time-loop.
         
         ~ has_watch = true
         Todd Two-Frogs seems happy with the Fly, and runs off.
@@ -124,7 +124,7 @@ You do not have coin, but maybe you could convince him to buy one.
     
     "Sorry buckeroo, this thing tends to do that to people, only way to get someone to snap out of it."
     
-    ++ {has_gun == true}No funny business frog, I mean frogs.
+    ++ {has_gun == true}[Point gun at Todd Two-Frogs] "No funny business frog, I mean frogs."
         ->robbery
     ++ How did you even get that?
         "Dunno."
@@ -184,7 +184,7 @@ With Todd Two-Frogs gone, there isn't much you can do here.
         
         "You really think so?" Frobbert says, ribbiting to himself.
         
-        +++ "So dearly"[ you say while staring deep into those eyes.]
+        +++ ["So dearly"] "So dearly," you say while staring deep into those eyes.
             Frobbert blushes, he hasn't experience such gentleness since his college years. When he met a girl that became his dream, his beautiful Ribbetta. Until she died in The Freak Hawk-Attack Incident of 1985.
             
             "Say boss, can't we give him the thingy? He seems nice." Says Frobbert.
@@ -193,7 +193,7 @@ With Todd Two-Frogs gone, there isn't much you can do here.
             
             "Well, I suppose." He suddenly changes, realizing this was still a robbery. "No, we have to determine if he is for real. Tell us stranger, what is your other favorite part of Frobbert."
             
-            ++++ His Deep voice
+            ++++ ["His deep voice."] "His deep voice," you say with a blush.
                 "Really?" Frobbert says, a little shy.
                 
                 You nod, eagerly, and he knows that you really mean it.
@@ -208,7 +208,7 @@ With Todd Two-Frogs gone, there isn't much you can do here.
                 
                 ->BoneZone
                 
-            ++++ The Fact He is A Frog
+            ++++ ["The Fact He is A Frog"] "The fact that he is a frog," you say like a pervert.
                 Frobbert frowns, so does The Frog on Top.
                 "Fetishest!" They both exclaim in unison.
                 Soon a crowd forms around you.
@@ -267,7 +267,7 @@ As you approach The Castle, a guard stops you.
 == TheCastle ==
 Entering the castle, you are immediately greated by Frogalin and Eduardo, who have been waiting for you.
 
-Eduardo whinies at you with glee, he has been all healed up and now you can ride him around. You are certain riding him means you will be able to go from location to location faster.
+Eduardo whinies at you with glee, he has been all healed up and now you can ride him around. You are certain riding him means you will be able to go from location to location faster. Which doesn't matter actually because Jesse forgot to program the action-based time-progression mechanics.
 ~has_eduardo = true
 
 Frogalin ribbits at you, eager to say hello. Frogalin shakes your hand and shows you around the castle. It seems fairly boring, but a gathering of frog royalty is gathering by an object.
@@ -372,7 +372,7 @@ Which one do you go into?
         ->UFV
     ++ Yeah sure
         ->WiseOldMan
-    ++ {timeshare == 3} I have your timeshare signatures.
+    ++ {timeshare >= 3} I have your timeshare signatures.
         He shrieks with glee "THANK GOODNESS, WITH THIS, I BET I COULD GET NOT ONE BUT TWO DATES AT THE TIMESHARE." He suddenly teleports, leaving The Warp Core on the ground. You pick it up, sighing as you know you're close to the end.
         ~has_core = true
         ~classroom = false
@@ -388,8 +388,12 @@ Which one do you go into?
     As you approach it you notice there's some pieces missing.
     ++ Can't help, leave.
         ->UFV
-    ++ {has_core == true && bone_zone == true && has_watch == true} End the Timeloop.
+    ++ {has_core == true && bone_zone == true && has_watch == true} [End the Timeloop.] Once and for all, it's finished.
         You grab the watch and the core. Using your bone-zone abilities, you reset their quantized nature. Then you place them back into the Literal Theoretical Time-Controller.
+        
+        As you see the time tick past 1:15PM, you give a sigh of relief, finally being able to confirm that the timeloop has finished.
+        
+        TRUE ENDING
         ->END
 
 + Leave the University
@@ -437,11 +441,11 @@ Turning, you see a figure that is otherworldly, an eldritch evil that cannot be 
 "Yo" The Eldritch Horror says.
 "Oh cool you must be the new guy, yeah it's be dreadfully boring here in The Bone Zone." The Eldritch Horror appears to be disgusted at the fact that this place is actually called that.
 
-"Yeah DO NOT ask why they called it The Bone Zone. It was some interns job to name it. It was originally called ርልረጎፏ፱ረል but that didn't exactly roll off the tongue so we decided to switch it up. I'm telling you, NOBODY wanted 'The Bone Zone' but for the intern was ርፕⶴ፱ረ፱'s son so we just kinda had to accept it.
+"Yeah DO NOT ask why they called it The Bone Zone. It was some interns job to name it. It was originally called ርልረጎፏ፱ረል but that didn't exactly roll off the tongue so we decided to switch it up. I'm telling you, NOBODY wanted 'The Bone Zone' but the intern was ርፕⶴ፱ረ፱'s son so we just kinda had to accept it.
 
-The Eldritch Horror sighs, it appears that nepotism babies still exist in this dimension. It does what you can only probably guess is a shrug, then turns into a ball of light. A round ball, not much larger than a grape, but absorbing all the light inside it till it became brighter than a sun. It suddenly stops.
+The Eldritch Horror sighs, it appears that nepotism still exists in this dimension. It does what you can only probably guess is a shrug, then turns into a ball of light. A round ball, not much larger than a grape, but absorbing all the light inside it till it became brighter than a sun. It suddenly stops.
 
-"Shit sorry about that, I had a big lunch, I ate the emotion solemn melancholy for lunch and it didn't sit right" The Eldritch Horror says, then you feel your body tingle.
+"Shit sorry about that, I had a big lunch, I ate the emotion solemn melancholy as a little treat and it didn't sit right" The Eldritch Horror says, then you feel your body tingle.
 
 The darkness begins to absorb within you, completely overcoming you with an exisestential dread. But it is no exisestential dread, rather it is the entire knowledge of the universe. Just kidding, it would've been but due to budget cuts its actually just the entire knowledge of Judd Apatow and his career. You resontate with Adam Driver's character in Girls and wish Freaks and Geeks had more than one season.
 
